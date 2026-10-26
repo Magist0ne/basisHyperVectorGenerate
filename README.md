@@ -1,4 +1,4 @@
-# basisHD
+# basisHyperVectorGenerate
 
 A Hyperdimensional Computing (HDC) / Vector Symbolic Architecture (VSA) extension built on top of [`torchhd`](https://github.com/hyperdimensional-computing/torchhd), providing deterministic, index-based hypervector generation with a binary/bipolar dual representation.
 
@@ -6,7 +6,7 @@ A Hyperdimensional Computing (HDC) / Vector Symbolic Architecture (VSA) extensio
 
 ## Overview
 
-`basisHD` extends `torchhd`'s `MAPTensor` with a **seed-based vector generator**. Instead of sampling random hypervectors independently, it:
+`basisHyperVectorGenerate` extends `torchhd`'s `MAPTensor` with a **seed-based vector generator**. Instead of sampling random hypervectors independently, it:
 
 - Pre-generates a **seed tensor** containing all basis vectors of dimension `d = 2^k`.
 - Enumerates **all `2^k` index combinations** of the basis vectors.
